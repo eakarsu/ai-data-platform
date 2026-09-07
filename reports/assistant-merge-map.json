@@ -1,0 +1,886 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "draft-reply",
+      "api-translations",
+      "context-summarizer",
+      "summaries",
+      "conversational-document-analyst",
+      "recommendsources-crossdocument-discovery"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 9 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "draft-reply",
+        "title": "AI · Draft Email Reply",
+        "originalPath": "/features/draft-reply"
+      },
+      {
+        "id": "api-translations",
+        "title": "AI Real-Time Translation",
+        "originalPath": "/features/api-translations"
+      },
+      {
+        "id": "context-summarizer",
+        "title": "Context summarizer",
+        "originalPath": "/features/context-summarizer"
+      },
+      {
+        "id": "summaries",
+        "title": "AI Summaries",
+        "originalPath": "/features/summaries"
+      },
+      {
+        "id": "conversational-document-analyst",
+        "title": "conversational document analyst",
+        "originalPath": "/features/conversational-document-analyst"
+      },
+      {
+        "id": "recommendsources-crossdocument-discovery",
+        "title": "recommendsources crossdocument discovery",
+        "originalPath": "/features/recommendsources-crossdocument-discovery"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "enterprise-agent-testing-sandbox",
+      "insert-memory",
+      "recall",
+      "time-travel",
+      "summary-rollup",
+      "extractor-tuner",
+      "conflict-resolve",
+      "memory-consolidate",
+      "rag-chat",
+      "pii-redact",
+      "memory-graph-extract",
+      "semantic-search",
+      "cross-agent-share-advisor",
+      "retention-dry-run",
+      "auto-merge-advisor",
+      "auto-rca",
+      "eval-generator",
+      "judge-calibrator",
+      "hub",
+      "report-templating",
+      "prior-study-comparison",
+      "incidental-findings",
+      "insurance-preauth",
+      "patient-portal-summary",
+      "dashboard-generator",
+      "features",
+      "chat",
+      "ss-ai-fill-down",
+      "reviews",
+      "services",
+      "local-task-plan",
+      "file-semantic-search",
+      "weekly-summary",
+      "model-router-select",
+      "conflict-finder",
+      "daily-digest",
+      "local-fallback-orchestrator",
+      "conflict-auto-resolver",
+      "rag-rerank-planner",
+      "prompt-redaction-rewriter",
+      "merge-rules-suggest",
+      "description",
+      "category",
+      "dashboard-ai-tools",
+      "api-ai-provider-aws-bedrock-arbitrage",
+      "api-ai-custom-model-register",
+      "api-ai-latency-record",
+      "api-ai-error-record",
+      "api-ai-support",
+      "roaming-consortium-advisor",
+      "backlog",
+      "answer-from-context",
+      "redaction-suggester",
+      "schema-extractor",
+      "query-rewriter",
+      "ai-regression-testing-against-golden-outp",
+      "ai-modelspecific-prompt-rewriter-claude-v",
+      "data-masking-anonymization-ai",
+      "dataset-preview-endpoint",
+      "debate",
+      "samproject-ragstudio",
+      "voice-ai",
+      "usage-analytics"
+    ],
+    "ai": true,
+    "representativeId": "enterprise-agent-testing-sandbox",
+    "description": "One assistant for 63 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "enterprise-agent-testing-sandbox",
+        "title": "Enterprise agent testing sandbox work",
+        "originalPath": "/features/enterprise-agent-testing-sandbox"
+      },
+      {
+        "id": "insert-memory",
+        "title": "AI · Insert Memory",
+        "originalPath": "/features/insert-memory"
+      },
+      {
+        "id": "recall",
+        "title": "AI · Natural-Language Recall",
+        "originalPath": "/features/recall"
+      },
+      {
+        "id": "time-travel",
+        "title": "AI · Time-Travel Query",
+        "originalPath": "/features/time-travel"
+      },
+      {
+        "id": "summary-rollup",
+        "title": "AI · Summary Rollup",
+        "originalPath": "/features/summary-rollup"
+      },
+      {
+        "id": "extractor-tuner",
+        "title": "AI · Extractor Tuner",
+        "originalPath": "/features/extractor-tuner"
+      },
+      {
+        "id": "conflict-resolve",
+        "title": "Conflict resolve",
+        "originalPath": "/features/conflict-resolve"
+      },
+      {
+        "id": "memory-consolidate",
+        "title": "Memory consolidate",
+        "originalPath": "/features/memory-consolidate"
+      },
+      {
+        "id": "rag-chat",
+        "title": "Rag chat",
+        "originalPath": "/features/rag-chat"
+      },
+      {
+        "id": "pii-redact",
+        "title": "Pii redact",
+        "originalPath": "/features/pii-redact"
+      },
+      {
+        "id": "memory-graph-extract",
+        "title": "Memory graph extract",
+        "originalPath": "/features/memory-graph-extract"
+      },
+      {
+        "id": "semantic-search",
+        "title": "Semantic search",
+        "originalPath": "/features/semantic-search"
+      },
+      {
+        "id": "cross-agent-share-advisor",
+        "title": "Cross agent share advisor",
+        "originalPath": "/features/cross-agent-share-advisor"
+      },
+      {
+        "id": "retention-dry-run",
+        "title": "Retention dry run",
+        "originalPath": "/features/retention-dry-run"
+      },
+      {
+        "id": "auto-merge-advisor",
+        "title": "Auto merge advisor",
+        "originalPath": "/features/auto-merge-advisor"
+      },
+      {
+        "id": "auto-rca",
+        "title": "AI · Auto RCA",
+        "originalPath": "/features/auto-rca"
+      },
+      {
+        "id": "eval-generator",
+        "title": "AI · Eval Generator",
+        "originalPath": "/features/eval-generator"
+      },
+      {
+        "id": "judge-calibrator",
+        "title": "AI · Judge Calibrator",
+        "originalPath": "/features/judge-calibrator"
+      },
+      {
+        "id": "hub",
+        "title": "AI Hub",
+        "originalPath": "/features/hub"
+      },
+      {
+        "id": "report-templating",
+        "title": "Report Templating",
+        "originalPath": "/features/report-templating"
+      },
+      {
+        "id": "prior-study-comparison",
+        "title": "Prior Study Comparison",
+        "originalPath": "/features/prior-study-comparison"
+      },
+      {
+        "id": "incidental-findings",
+        "title": "Incidental Findings",
+        "originalPath": "/features/incidental-findings"
+      },
+      {
+        "id": "insurance-preauth",
+        "title": "Insurance Pre-Auth",
+        "originalPath": "/features/insurance-preauth"
+      },
+      {
+        "id": "patient-portal-summary",
+        "title": "Patient Portal Summary",
+        "originalPath": "/features/patient-portal-summary"
+      },
+      {
+        "id": "dashboard-generator",
+        "title": "Dashboard Generator",
+        "originalPath": "/features/dashboard-generator"
+      },
+      {
+        "id": "features",
+        "title": "AI Features (New)",
+        "originalPath": "/features/features"
+      },
+      {
+        "id": "chat",
+        "title": "AI Assistant",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "ss-ai-fill-down",
+        "title": "AI Fill Down",
+        "originalPath": "/features/ss-ai-fill-down"
+      },
+      {
+        "id": "reviews",
+        "title": "Reviews",
+        "originalPath": "/features/reviews"
+      },
+      {
+        "id": "services",
+        "title": "AI Services",
+        "originalPath": "/features/services"
+      },
+      {
+        "id": "local-task-plan",
+        "title": "AI · Plan Local Task",
+        "originalPath": "/features/local-task-plan"
+      },
+      {
+        "id": "file-semantic-search",
+        "title": "AI · Semantic File Search",
+        "originalPath": "/features/file-semantic-search"
+      },
+      {
+        "id": "weekly-summary",
+        "title": "AI · Weekly Summary",
+        "originalPath": "/features/weekly-summary"
+      },
+      {
+        "id": "model-router-select",
+        "title": "AI · Model Router",
+        "originalPath": "/features/model-router-select"
+      },
+      {
+        "id": "conflict-finder",
+        "title": "AI · Conflict Finder",
+        "originalPath": "/features/conflict-finder"
+      },
+      {
+        "id": "daily-digest",
+        "title": "AI · Daily Digest",
+        "originalPath": "/features/daily-digest"
+      },
+      {
+        "id": "local-fallback-orchestrator",
+        "title": "Local fallback orchestrator",
+        "originalPath": "/features/local-fallback-orchestrator"
+      },
+      {
+        "id": "conflict-auto-resolver",
+        "title": "Conflict auto resolver",
+        "originalPath": "/features/conflict-auto-resolver"
+      },
+      {
+        "id": "rag-rerank-planner",
+        "title": "Rag rerank planner",
+        "originalPath": "/features/rag-rerank-planner"
+      },
+      {
+        "id": "prompt-redaction-rewriter",
+        "title": "Prompt redaction rewriter",
+        "originalPath": "/features/prompt-redaction-rewriter"
+      },
+      {
+        "id": "merge-rules-suggest",
+        "title": "Merge Rules Suggester",
+        "originalPath": "/features/merge-rules-suggest"
+      },
+      {
+        "id": "description",
+        "title": "Description Generator",
+        "originalPath": "/features/description"
+      },
+      {
+        "id": "category",
+        "title": "Category Suggestion",
+        "originalPath": "/features/category"
+      },
+      {
+        "id": "dashboard-ai-tools",
+        "title": "AI Tools",
+        "originalPath": "/features/dashboard-ai-tools"
+      },
+      {
+        "id": "api-ai-provider-aws-bedrock-arbitrage",
+        "title": "AWS Bedrock Arbitrage (NEEDS-CREDS)",
+        "originalPath": "/features/api-ai-provider-aws-bedrock-arbitrage"
+      },
+      {
+        "id": "api-ai-custom-model-register",
+        "title": "Register Custom Model",
+        "originalPath": "/features/api-ai-custom-model-register"
+      },
+      {
+        "id": "api-ai-latency-record",
+        "title": "Record Latency Sample",
+        "originalPath": "/features/api-ai-latency-record"
+      },
+      {
+        "id": "api-ai-error-record",
+        "title": "Record Error Event",
+        "originalPath": "/features/api-ai-error-record"
+      },
+      {
+        "id": "api-ai-support",
+        "title": "AI Support Assistant",
+        "originalPath": "/features/api-ai-support"
+      },
+      {
+        "id": "roaming-consortium-advisor",
+        "title": "Roaming Consortium Advisor",
+        "originalPath": "/features/roaming-consortium-advisor"
+      },
+      {
+        "id": "backlog",
+        "title": "Backlog",
+        "originalPath": "/features/backlog"
+      },
+      {
+        "id": "answer-from-context",
+        "title": "AI · Answer App Query",
+        "originalPath": "/features/answer-from-context"
+      },
+      {
+        "id": "redaction-suggester",
+        "title": "AI · Redaction Suggester",
+        "originalPath": "/features/redaction-suggester"
+      },
+      {
+        "id": "schema-extractor",
+        "title": "AI · Schema Extractor",
+        "originalPath": "/features/schema-extractor"
+      },
+      {
+        "id": "query-rewriter",
+        "title": "Query rewriter",
+        "originalPath": "/features/query-rewriter"
+      },
+      {
+        "id": "ai-regression-testing-against-golden-outp",
+        "title": "ai regression testing against golden outp",
+        "originalPath": "/features/ai-regression-testing-against-golden-outp"
+      },
+      {
+        "id": "ai-modelspecific-prompt-rewriter-claude-v",
+        "title": "ai modelspecific prompt rewriter claude v",
+        "originalPath": "/features/ai-modelspecific-prompt-rewriter-claude-v"
+      },
+      {
+        "id": "data-masking-anonymization-ai",
+        "title": "data masking anonymization ai",
+        "originalPath": "/features/data-masking-anonymization-ai"
+      },
+      {
+        "id": "dataset-preview-endpoint",
+        "title": "dataset preview endpoint",
+        "originalPath": "/features/dataset-preview-endpoint"
+      },
+      {
+        "id": "debate",
+        "title": "AI Debate",
+        "originalPath": "/features/debate"
+      },
+      {
+        "id": "samproject-ragstudio",
+        "title": "Samproject ragstudio work",
+        "originalPath": "/features/samproject-ragstudio"
+      },
+      {
+        "id": "voice-ai",
+        "title": "Advanced Voice AI",
+        "originalPath": "/features/voice-ai"
+      },
+      {
+        "id": "usage-analytics",
+        "title": "usage analytics",
+        "originalPath": "/features/usage-analytics"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "contradiction-detect",
+      "relevance-score",
+      "importance-score",
+      "regression-detect",
+      "drift-score",
+      "prompt-diff",
+      "analysis",
+      "turnaround-predictor",
+      "insights",
+      "query-optimizer",
+      "log-analyzer",
+      "predictions",
+      "forecast-accuracy-scorer",
+      "predictive-analytics",
+      "missing-query-builder-generate-dashboard-analyze-data-predic",
+      "recommend-label-strategy",
+      "privacy-classifier",
+      "detect-duplicates",
+      "dashboard-token-analysis",
+      "dashboard-prompt-optimization",
+      "api-ai-model-recommendation",
+      "api-ai-prompt-optimization-suggestion",
+      "api-intent-detection",
+      "intent-classifier",
+      "relevance-scorer",
+      "conflict-detector",
+      "ai-prompt-classification-autotag-by-domai"
+    ],
+    "ai": true,
+    "representativeId": "contradiction-detect",
+    "description": "One assistant for 27 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "contradiction-detect",
+        "title": "AI · Contradiction Detect",
+        "originalPath": "/features/contradiction-detect"
+      },
+      {
+        "id": "relevance-score",
+        "title": "Relevance score",
+        "originalPath": "/features/relevance-score"
+      },
+      {
+        "id": "importance-score",
+        "title": "Importance score",
+        "originalPath": "/features/importance-score"
+      },
+      {
+        "id": "regression-detect",
+        "title": "AI · Regression Detect",
+        "originalPath": "/features/regression-detect"
+      },
+      {
+        "id": "drift-score",
+        "title": "AI · Drift Score",
+        "originalPath": "/features/drift-score"
+      },
+      {
+        "id": "prompt-diff",
+        "title": "AI · Prompt Diff Analyzer",
+        "originalPath": "/features/prompt-diff"
+      },
+      {
+        "id": "analysis",
+        "title": "AI Analysis",
+        "originalPath": "/features/analysis"
+      },
+      {
+        "id": "turnaround-predictor",
+        "title": "Turnaround Predictor",
+        "originalPath": "/features/turnaround-predictor"
+      },
+      {
+        "id": "insights",
+        "title": "AI Insights",
+        "originalPath": "/features/insights"
+      },
+      {
+        "id": "query-optimizer",
+        "title": "Query Optimizer",
+        "originalPath": "/features/query-optimizer"
+      },
+      {
+        "id": "log-analyzer",
+        "title": "Log Analyzer",
+        "originalPath": "/features/log-analyzer"
+      },
+      {
+        "id": "predictions",
+        "title": "Predictions",
+        "originalPath": "/features/predictions"
+      },
+      {
+        "id": "forecast-accuracy-scorer",
+        "title": "Forecast Accuracy Scorer",
+        "originalPath": "/features/forecast-accuracy-scorer"
+      },
+      {
+        "id": "predictive-analytics",
+        "title": "Predictive analytics",
+        "originalPath": "/features/predictive-analytics"
+      },
+      {
+        "id": "missing-query-builder-generate-dashboard-analyze-data-predic",
+        "title": "Missing query builder generate dashboard analyze data predic",
+        "originalPath": "/features/missing-query-builder-generate-dashboard-analyze-data-predic"
+      },
+      {
+        "id": "recommend-label-strategy",
+        "title": "Recommend label strategy",
+        "originalPath": "/features/recommend-label-strategy"
+      },
+      {
+        "id": "privacy-classifier",
+        "title": "AI · Privacy Classifier",
+        "originalPath": "/features/privacy-classifier"
+      },
+      {
+        "id": "detect-duplicates",
+        "title": "Detect Duplicates",
+        "originalPath": "/features/detect-duplicates"
+      },
+      {
+        "id": "dashboard-token-analysis",
+        "title": "Token Analysis",
+        "originalPath": "/features/dashboard-token-analysis"
+      },
+      {
+        "id": "dashboard-prompt-optimization",
+        "title": "Prompt Optimizer",
+        "originalPath": "/features/dashboard-prompt-optimization"
+      },
+      {
+        "id": "api-ai-model-recommendation",
+        "title": "Model Recommendation",
+        "originalPath": "/features/api-ai-model-recommendation"
+      },
+      {
+        "id": "api-ai-prompt-optimization-suggestion",
+        "title": "Prompt Optimization",
+        "originalPath": "/features/api-ai-prompt-optimization-suggestion"
+      },
+      {
+        "id": "api-intent-detection",
+        "title": "AI Intent Detection",
+        "originalPath": "/features/api-intent-detection"
+      },
+      {
+        "id": "intent-classifier",
+        "title": "AI · Intent Classifier",
+        "originalPath": "/features/intent-classifier"
+      },
+      {
+        "id": "relevance-scorer",
+        "title": "Relevance scorer",
+        "originalPath": "/features/relevance-scorer"
+      },
+      {
+        "id": "conflict-detector",
+        "title": "Conflict detector",
+        "originalPath": "/features/conflict-detector"
+      },
+      {
+        "id": "ai-prompt-classification-autotag-by-domai",
+        "title": "ai prompt classification autotag by domai",
+        "originalPath": "/features/ai-prompt-classification-autotag-by-domai"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "embedding-quality",
+      "decay-policy-recommend",
+      "anomaly-classify",
+      "qa-audit",
+      "quality",
+      "label-quality-prediction",
+      "api-compliance-reports",
+      "network-anomaly-detect",
+      "consent-policy-check",
+      "privacy-risk-score",
+      "ai-piiinjection-security-scanning-ui-stub",
+      "domain-specific-generators-healthcare-finance-with-regulatory-presets"
+    ],
+    "ai": true,
+    "representativeId": "embedding-quality",
+    "description": "One assistant for 12 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "embedding-quality",
+        "title": "AI · Embedding Quality",
+        "originalPath": "/features/embedding-quality"
+      },
+      {
+        "id": "decay-policy-recommend",
+        "title": "Decay policy recommend",
+        "originalPath": "/features/decay-policy-recommend"
+      },
+      {
+        "id": "anomaly-classify",
+        "title": "AI · Anomaly Classifier",
+        "originalPath": "/features/anomaly-classify"
+      },
+      {
+        "id": "qa-audit",
+        "title": "QA Audit (A vs B)",
+        "originalPath": "/features/qa-audit"
+      },
+      {
+        "id": "quality",
+        "title": "Quality",
+        "originalPath": "/features/quality"
+      },
+      {
+        "id": "label-quality-prediction",
+        "title": "Label quality prediction",
+        "originalPath": "/features/label-quality-prediction"
+      },
+      {
+        "id": "api-compliance-reports",
+        "title": "AI Compliance Reports",
+        "originalPath": "/features/api-compliance-reports"
+      },
+      {
+        "id": "network-anomaly-detect",
+        "title": "Network Anomaly Detect",
+        "originalPath": "/features/network-anomaly-detect"
+      },
+      {
+        "id": "consent-policy-check",
+        "title": "AI · Consent Policy Check",
+        "originalPath": "/features/consent-policy-check"
+      },
+      {
+        "id": "privacy-risk-score",
+        "title": "AI · Privacy Risk Score",
+        "originalPath": "/features/privacy-risk-score"
+      },
+      {
+        "id": "ai-piiinjection-security-scanning-ui-stub",
+        "title": "ai piiinjection security scanning ui stub",
+        "originalPath": "/features/ai-piiinjection-security-scanning-ui-stub"
+      },
+      {
+        "id": "domain-specific-generators-healthcare-finance-with-regulatory-presets",
+        "title": "domain specific generators healthcare finance with regulatory presets",
+        "originalPath": "/features/domain-specific-generators-healthcare-finance-with-regulatory-presets"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "cost-anomaly",
+      "query-cost-optimizer",
+      "price-analysis",
+      "pricing-trend-analyzer",
+      "price",
+      "dashboard-cost-analytics",
+      "dashboard-cost-forecasting",
+      "api-ai-cost-anomaly-detection",
+      "api-ai-budget-allocation",
+      "api-ai-billing-stripe",
+      "api-ai-provider-openai-arbitrage",
+      "api-ai-provider-anthropic-arbitrage",
+      "dashboard-sla-cost-guardrail",
+      "cost-optimization",
+      "cost-prediction-by-volume"
+    ],
+    "ai": true,
+    "representativeId": "cost-anomaly",
+    "description": "One assistant for 15 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "cost-anomaly",
+        "title": "AI · Cost Anomaly Detector",
+        "originalPath": "/features/cost-anomaly"
+      },
+      {
+        "id": "query-cost-optimizer",
+        "title": "Query Cost Optimizer",
+        "originalPath": "/features/query-cost-optimizer"
+      },
+      {
+        "id": "price-analysis",
+        "title": "Price Analysis",
+        "originalPath": "/features/price-analysis"
+      },
+      {
+        "id": "pricing-trend-analyzer",
+        "title": "Pricing Trend Analyzer",
+        "originalPath": "/features/pricing-trend-analyzer"
+      },
+      {
+        "id": "price",
+        "title": "Price Optimization",
+        "originalPath": "/features/price"
+      },
+      {
+        "id": "dashboard-cost-analytics",
+        "title": "Cost Analytics",
+        "originalPath": "/features/dashboard-cost-analytics"
+      },
+      {
+        "id": "dashboard-cost-forecasting",
+        "title": "Cost Forecasting",
+        "originalPath": "/features/dashboard-cost-forecasting"
+      },
+      {
+        "id": "api-ai-cost-anomaly-detection",
+        "title": "Cost Anomaly Detection",
+        "originalPath": "/features/api-ai-cost-anomaly-detection"
+      },
+      {
+        "id": "api-ai-budget-allocation",
+        "title": "Budget Allocation",
+        "originalPath": "/features/api-ai-budget-allocation"
+      },
+      {
+        "id": "api-ai-billing-stripe",
+        "title": "Stripe Billing Plan (NEEDS-CREDS)",
+        "originalPath": "/features/api-ai-billing-stripe"
+      },
+      {
+        "id": "api-ai-provider-openai-arbitrage",
+        "title": "OpenAI Cost Arbitrage (NEEDS-CREDS)",
+        "originalPath": "/features/api-ai-provider-openai-arbitrage"
+      },
+      {
+        "id": "api-ai-provider-anthropic-arbitrage",
+        "title": "Anthropic Cost Arbitrage (NEEDS-CREDS)",
+        "originalPath": "/features/api-ai-provider-anthropic-arbitrage"
+      },
+      {
+        "id": "dashboard-sla-cost-guardrail",
+        "title": "Sla cost guardrail",
+        "originalPath": "/features/dashboard-sla-cost-guardrail"
+      },
+      {
+        "id": "cost-optimization",
+        "title": "Cost Optimization",
+        "originalPath": "/features/cost-optimization"
+      },
+      {
+        "id": "cost-prediction-by-volume",
+        "title": "cost prediction by volume",
+        "originalPath": "/features/cost-prediction-by-volume"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "scheduled-macro"
+    ],
+    "ai": true,
+    "representativeId": "scheduled-macro",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "scheduled-macro",
+        "title": "AI · Define Scheduled Macro",
+        "originalPath": "/features/scheduled-macro"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "dashboard-ai-results"
+    ],
+    "ai": true,
+    "representativeId": "dashboard-ai-results",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "dashboard-ai-results",
+        "title": "AI Results History",
+        "originalPath": "/features/dashboard-ai-results"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "api-sentiment",
+      "churn-predict"
+    ],
+    "ai": true,
+    "representativeId": "api-sentiment",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "api-sentiment",
+        "title": "AI Sentiment Analysis",
+        "originalPath": "/features/api-sentiment"
+      },
+      {
+        "id": "churn-predict",
+        "title": "Churn Predict",
+        "originalPath": "/features/churn-predict"
+      }
+    ]
+  }
+]

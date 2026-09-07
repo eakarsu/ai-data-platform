@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ai-enterprise-agent-testing-sandbox",
+    "name": "Enterprise agent testing sandbox",
+    "sourceProject": "ai-enterprise-agent-testing-sandbox",
+    "services": []
+  },
+  {
+    "id": "AIAgentMemoryStore",
+    "name": "Agent memory store",
+    "sourceProject": "AIAgentMemoryStore",
+    "services": []
+  },
+  {
+    "id": "AIAgentObservabilityPlus",
+    "name": "Agent observability plus",
+    "sourceProject": "AIAgentObservabilityPlus",
+    "services": []
+  },
+  {
+    "id": "AIassistant",
+    "name": "Assistant",
+    "sourceProject": "AIassistant",
+    "services": []
+  },
+  {
+    "id": "AiDataAnalyst",
+    "name": "Data analyst",
+    "sourceProject": "AiDataAnalyst",
+    "services": []
+  },
+  {
+    "id": "AIDataLabelingPlatform",
+    "name": "Data labeling platform",
+    "sourceProject": "AIDataLabelingPlatform",
+    "services": []
+  },
+  {
+    "id": "AIFineTuningPlatform",
+    "name": "Fine tuning platform",
+    "sourceProject": "AIFineTuningPlatform",
+    "services": []
+  },
+  {
+    "id": "AILocalFirstAgent",
+    "name": "Local first agent",
+    "sourceProject": "AILocalFirstAgent",
+    "services": []
+  },
+  {
+    "id": "AIMergededuplicate",
+    "name": "Mergededuplicate",
+    "sourceProject": "AIMergededuplicate",
+    "services": []
+  },
+  {
+    "id": "AIModelCostOrchestrator",
+    "name": "Model cost orchestrator",
+    "sourceProject": "AIModelCostOrchestrator",
+    "services": []
+  },
+  {
+    "id": "AIMultiAgentSimulationPlatform",
+    "name": "Multi agent simulation platform",
+    "sourceProject": "AIMultiAgentSimulationPlatform",
+    "services": []
+  },
+  {
+    "id": "AIobservability",
+    "name": "Observability",
+    "sourceProject": "AIobservability",
+    "services": []
+  },
+  {
+    "id": "AIondistributedcloud",
+    "name": "Ondistributedcloud",
+    "sourceProject": "AIondistributedcloud",
+    "services": []
+  },
+  {
+    "id": "AIPersonalContextMCP",
+    "name": "Personal context mcp",
+    "sourceProject": "AIPersonalContextMCP",
+    "services": []
+  },
+  {
+    "id": "AIPromptEngineeringStudio",
+    "name": "Prompt engineering studio",
+    "sourceProject": "AIPromptEngineeringStudio",
+    "services": []
+  },
+  {
+    "id": "AIRAGPlatform",
+    "name": "Ragplatform",
+    "sourceProject": "AIRAGPlatform",
+    "services": []
+  },
+  {
+    "id": "AISyntheticDataGenerator",
+    "name": "Synthetic data generator",
+    "sourceProject": "AISyntheticDataGenerator",
+    "services": []
+  },
+  {
+    "id": "multi_agents",
+    "name": "Multi agents",
+    "sourceProject": "multi_agents",
+    "services": []
+  },
+  {
+    "id": "SAMProjectRAGStudio",
+    "name": "Samproject ragstudio",
+    "sourceProject": "SAMProjectRAGStudio",
+    "services": []
+  },
+  {
+    "id": "scale",
+    "name": "Scale",
+    "sourceProject": "scale",
+    "services": []
+  },
+  {
+    "id": "sonic-search-replica",
+    "name": "Sonic search replica",
+    "sourceProject": "sonic-search-replica",
+    "services": []
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "ai-data-platform",
+  "status": "passed",
+  "previousAIEntries": 130,
+  "mergedAssistants": 8,
+  "capabilitiesMappedExactlyOnce": true,
+  "canonicalPagesAndAliases": true,
+  "combinedQuestions": true,
+  "singleProviderCall": true,
+  "exactDuplicateRemoval": true,
+  "legacyHistoryPreserved": true,
+  "followups": true,
+  "sharedRecordContext": true,
+  "assistantIsolation": true,
+  "combinedWordLimit": true,
+  "mobile": true,
+  "nonAIPopup": true,
+  "provider": "mocked",
+  "verifiedAt": "2026-09-07T20:16:24.410Z"
+}

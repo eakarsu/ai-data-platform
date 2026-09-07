@@ -1,0 +1,11 @@
+{
+  "id": "ai-data-platform",
+  "status": "passed",
+  "pagesVisited": 449,
+  "minimumRows": 15,
+  "browserCRUD": true,
+  "persistence": true,
+  "mobile": true,
+  "pageErrors": [],
+  "verifiedAt": "2026-09-07T14:41:03.540Z"
+}

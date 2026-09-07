@@ -1,0 +1,18 @@
+{
+  "id": "ai-data-platform",
+  "status": "passed",
+  "features": 449,
+  "editableTables": 447,
+  "minimumRows": 15,
+  "repeatSeedCreated": 0,
+  "crud": true,
+  "persistence": true,
+  "relationships": true,
+  "revisions": true,
+  "attachments": true,
+  "exports": true,
+  "mockedAI": true,
+  "originProtection": true,
+  "sourceCalculationsExecuted": 0,
+  "verifiedAt": "2026-09-07T22:06:15.306Z"
+}
