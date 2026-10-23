@@ -506,3 +506,7 @@ Implemented across this workspace. The bottom-right **Ask AI** button opens a pe
 - Existing AI provider configuration, timeout, rate limit and safe response renderer are reused. The assistant answers and drafts; it does not execute record changes or external actions.
 
 Validation: shared backend tests, all 64 app builds/API checks, and all 64 browser checks passed with an injected test provider. Browser checks cover item context, navigation, saved history/reload, follow-ups, new-chat isolation, error recovery, word limits, keyboard controls, mobile bounds, safe Markdown rendering and attachment refresh. See [verification](reports/floating-ai-verification.json).
+
+## Wave 6C feature pack
+
+Authenticated tasks list/create/update, search/filter on record lists, and CSV export already existed in the shared workspace runtime. Added in this wave: JSON export (`records/export?format=json` with an Export JSON button), and three domain-grounded AI insights per app (`config/feature-pack.json`, shown on the Overview as labelled sections via `/api/workspace/insights`). A provider is called only when `OPENROUTER_API_KEY`/`OPENAI_API_KEY` is configured; otherwise each insight returns a clearly labelled deterministic fallback with `aiGenerated:false`, computed from the app's own records and preserving 0/false/empty values. Covered by `_platform-builder/tests/wave6c-feature-pack.test.mjs`; `npm test` passes.

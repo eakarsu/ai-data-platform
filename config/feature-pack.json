@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-datasets",
+      "feature": "datasets",
+      "title": "Datasets insight",
+      "focus": "Summarize Datasets records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-agent-tasks",
+      "feature": "agent-tasks",
+      "title": "Agent tasks insight",
+      "focus": "Summarize Agent Tasks records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks, including unassigned work."
+    }
+  ]
+}
